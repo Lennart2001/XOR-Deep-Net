@@ -74,7 +74,6 @@ int main() {
     vector<vector<double>> weight2(Z1, vector<double>(Z2, 0));
     vector<vector<double>> weight3(Z2, vector<double>(OUTPUT, 0));
     vector<double> b1(Z1, 0), b2(Z2, 0), b3(OUTPUT, 0);
-    vector<double> error_vec;
     
     
     //MARK: INIT WEIGHTS
@@ -262,19 +261,13 @@ int main() {
             b1[x] -= c_b1[x] * LEARN_RATE;
         }
         
-        //MARK: ERROR
-        double error = 0;
-        for (int y = 0; y < OUTPUT; y++) {
-            double temp = a3[y] - exp_out[y];
-            error += temp * temp;
-        }
-        error /= OUTPUT;
-        
-        if (epoch % 50 == 0) {
-            error_vec.push_back(error);
-        }
-        
+        //MARK: MS ERROR
         if (epoch % 1000 == 0) {
+             double error = 0;
+            for (int y = 0; y < OUTPUT; y++) {
+                double temp = a3[y] - exp_out[y];
+                error += temp * temp;
+            error /= OUTPUT;
             cout << error << endl;
         }
     }
