@@ -24,7 +24,7 @@ For this network I chose Stochastic Gradient Descent ("SGD"), Where the algorith
 training example. Several passes can be made over the training set until the algorithm converges. When combining SGD with the backpropagation algorithm, 
 it is the standard algorithm for training artificial neural networks.
 
-Here you can see the Loss function after each iteration:
+Here you can see the Loss function after each Epoch:
 
 <img width="1260" alt="Screen Shot 2021-11-23 at 2 18 30 PM" src="https://user-images.githubusercontent.com/69181932/143097697-228864e0-7027-4993-bcf2-d5647777475f.png">
 
