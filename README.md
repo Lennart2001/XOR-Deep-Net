@@ -19,6 +19,7 @@ The two hidden layers use the ReLU activation function and the output layer uses
 <img width="956" alt="Screen Shot 2021-11-22 at 9 49 27 PM" src="https://user-images.githubusercontent.com/69181932/142968989-86557c56-00b1-4d73-b241-adb937ae5ee1.png">
 
 
+When I trained the DNN I used gradient descent to minimize the Loss function of the network.  
 
 
 
