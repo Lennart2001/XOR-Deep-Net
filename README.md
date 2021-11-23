@@ -26,6 +26,6 @@ it is the standard algorithm for training artificial neural networks.
 
 Here you can see the Loss function after each iteration:
 
-<img width="1200" alt="Screen Shot 2021-11-23 at 1 21 45 PM" src="https://user-images.githubusercontent.com/69181932/143090034-abde87b2-a0f6-4ec6-99b2-3c7d6f936afd.png">
+<img width="1260" alt="Screen Shot 2021-11-23 at 2 18 30 PM" src="https://user-images.githubusercontent.com/69181932/143097697-228864e0-7027-4993-bcf2-d5647777475f.png">
 
 
