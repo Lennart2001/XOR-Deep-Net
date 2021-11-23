@@ -12,8 +12,4 @@ We can also express the XOR gate as a mathematical expression:
 
 
 
-
-
-
-
-<img width="1217" alt="XOR Error Graph" src="https://user-images.githubusercontent.com/69181932/142936754-cbcdbcb1-1089-4796-a38c-26cd7dc8fc7f.png">
+<img width="1230" alt="Screen Shot 2021-11-22 at 8 38 09 PM" src="https://user-images.githubusercontent.com/69181932/142967786-b6665dc3-2d68-44f6-b843-d984e8bf6ba7.png">
